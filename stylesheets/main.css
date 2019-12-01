@@ -1,0 +1,17 @@
+.box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    width:150px ;
+    background: darkgrey;
+    align-items: center;
+    
+
+  }
+  .game {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    background: floralwhite;
+   
+  }
