@@ -3,9 +3,13 @@
 <html>
 <head>
 <link rel="styleSheet" href="../stylesheets/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="height=device-height, initial-scale=1.0">
 </head>
 <body>
-
+    
+<div id="wrapper">
+  <P>Tic <span>Tac</span> Toe</P>
 <div class="box">
   <div id="d1" class="game"></div>
   <div id="d2" class="game"></div>
@@ -17,10 +21,15 @@
   <div id="d8" class="game"></div>
   <div id="d9" class="game"></div>  
 </div>
+<button type="reset">Play Again</button> <!-- onclick="window.location.reload();" -->
+</div>
+</div>
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" rel="stylesheet" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 <script src="../scripts/main.js"></script>
 </body>
 </html>
