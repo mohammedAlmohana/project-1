@@ -2,10 +2,11 @@ const audio1 = new Audio('../audio/M4A1_Single-Kibblesbob-8540445-[AudioTrimmer.
 const audio2= new Audio('../audio/Funny_Boy_Laugh-Mike_Koenig-1446565974-[AudioTrimmer.com].mp3')
 
 
-$(function main(){
+function main(){
     
     $(".game").one("click",area)
-})
+}
+main()
 
     let count = 0;
     function area(box){
@@ -68,22 +69,23 @@ function check(){
         }
         else if (d3 == d5 && d5 == d7 && d3!="")//357
         {
-            setTimeout(function(){ swal("win"+" "+d3)},100)
+            setTimeout(function(){ swal("win"+" "+d3)},100,audio2.play())
         }
         
    
         else if(d1 !="" && d2 !=""&& d3 !=""&& d4 !=""&& d5 !=""&& d6 !="" && d7 !=""&& d8 !=""&& d9 !=""){
            setTimeout(function(){   swal("Tie")},100)
         }
-        function clear(){
-            count = 0
-            $(".game").off()
-            $('.game').text("")
-            $(".game").one("click",area)
+        
+}
+function clear(){
+    count = 0
+    $(".game").off()
+    $('.game').text("")
+    $(".game").one("click",area)
 
-          }
-          $("button").on("click",function(){clear()})
-        }
+}
+$("button").on("click", clear)
 
     
 
