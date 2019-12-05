@@ -1,7 +1,7 @@
 # project1: **Tic Tac Toe**
 
 ## Deployment:
-write here
+The [Demo](https://mohammedalmohana.github.io/project-1/)
 
 
 ### Technologies used in the project:
