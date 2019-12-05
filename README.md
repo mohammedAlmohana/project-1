@@ -90,9 +90,9 @@ function check(){
 # Unsolved problems which would be fixed in future iterations
 - now I do not have any problems but i want add some future in the features.
 ### Refraces
-[sweetalert2](https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css)
-[jquery](https://code.jquery.com/jquery-3.4.1.min.js)
-[audio](http://soundbible.com/tags-click.html)
-[background](https://unsplash.com/s/photos/background-game)
+- [sweetalert2](https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css)
+- [jquery](https://code.jquery.com/jquery-3.4.1.min.js)
+- [audio](http://soundbible.com/tags-click.html)
+- [background](https://unsplash.com/s/photos/background-game)
 
 ---
