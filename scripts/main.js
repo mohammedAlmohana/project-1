@@ -1,5 +1,5 @@
-const audio1 = new Audio('../audio/M4A1_Single-Kibblesbob-8540445-[AudioTrimmer.com].mp3');
-const audio2= new Audio('../audio/Funny_Boy_Laugh-Mike_Koenig-1446565974-[AudioTrimmer.com].mp3')    
+const audio1 = new Audio('scripts/../audio/M4A1_Single-Kibblesbob-8540445-[AudioTrimmer.com].mp3');
+const audio2= new Audio('scripts/../audio/Funny_Boy_Laugh-Mike_Koenig-1446565974-[AudioTrimmer.com].mp3')    
 
 
 function main(){
